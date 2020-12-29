@@ -1,0 +1,137 @@
+table, tr, td {border: 5px none black;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  word-break: break-all;
+  table-layout: fixed;
+  vertical-align: text-top;
+    }
+    table {margin-left: auto;
+           margin-right:auto;
+          }
+
+.tableformat td:nth-child(1){
+    width: 25%;
+    height:1px;
+
+}
+.tableformat td:nth-child(2){
+    width: 50%;
+    height: auto;
+}
+.tableformat td:nth-child(3){
+  width: 25%;
+  height: 1px;
+}
+
+caption {font-size: 70px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.srodek {text-align: center;
+  font-family: "Alfa Slab One";
+}
+div {background-image: url(div.png);
+}
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover{color:	#cccccc;}
+li.none {
+  list-style-type: none;
+
+
+}
+li.sparkling, h3.sparkling, ul.sparkling, td.sparkling
+{
+  background-image: url(200.gif);
+  border: 1px solid black;
+}
+ul {list-style-type: disc;
+}
+h1,h2,h3, caption{text-align:center;
+  font-family: "Alfa Slab One";
+  word-break:keep-all;
+}
+li, td {font-family:monaco;
+  font-weight: bold;
+  word-break: keep-all;
+}
+li:hover{color: black;}
+p {word-break: keep-all;
+}
+body{background-image: url(200.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-attachment: fixed;
+}
+
+.rainbow {
+
+   /* Font options */
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:40px;
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}

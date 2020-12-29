@@ -1,0 +1,94 @@
+table, tr, td {border: 5px none black;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  word-break: break-all;
+  table-layout: fixed;
+  vertical-align: text-top;
+    }
+    table {margin-left: auto;
+           margin-right:auto;
+          }
+img{
+  max-width: 100%;
+}
+.tableformat td:nth-child(1){
+    width: 25%;
+    height:1px;
+
+}
+.tableformat td:nth-child(2){
+    width: 50%;
+    height: auto;
+}
+.tableformat td:nth-child(3){
+  width: 25%;
+  height: 1px;
+}
+
+caption {font-size: 70px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.srodek {text-align: center;
+  font-family: Verdana, sans-serif;
+}
+div.jeden {
+  background: url(div.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+div.dwa {
+  /*background-image: linear-gradient(#a1b3dc, #b1f4cf);
+  */
+background-image: url(2.png);
+  padding: 10px;
+
+}
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover{color:	#FF49F3;}
+li.none {
+  list-style-type: none;
+}
+td.sparkling1{
+  background-image: linear-gradient(#B19CD9, white, #FF49F3);
+    border: 1px none black;
+}
+li.sparkling, h3.sparkling, ul.sparkling, td.sparkling
+{
+background-image: linear-gradient(#FF49F3, white, #B19CD9);
+  border: 1px none black;
+}
+ul {list-style-type: disc;
+}
+h1,h2,h3, caption{text-align:center;
+  font-family: "Alfa Slab One";
+  word-break:keep-all;
+}
+h2.dania{
+background-image: radial-gradient(white, #ace4d4);
+}
+li, td {font-family:monaco;
+  font-weight: bold;
+  word-break: keep-all;
+}
+li:hover{color: black;}
+p {word-break: keep-all;
+}
+body{background-image: url(sea.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-attachment: fixed;
+}
